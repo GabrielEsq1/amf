@@ -64,6 +64,7 @@ h6,
 .btn-primary,
 .btn-outline-primary:hover {
     color: var(--light);
+    margin: 10px;
 }
 
 .btn-square {
@@ -94,7 +95,7 @@ h6,
 
 /*** Navbar ***/
 .fixed-top {
-    transition: .5s;
+    /* transition: .5s; */
 }
 
 .top-bar {
@@ -125,6 +126,7 @@ h6,
 
 @media (max-width: 991.98px) {
     .navbar .navbar-nav {
+        margin-bottom: 10px;
         margin-top: 10px;
         border-top: 1px solid rgba(0, 0, 0, .07);
         background: #FFFFFF;
@@ -138,7 +140,7 @@ h6,
 @media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
         display: block;
-        visibility: hidden;
+        visibility: visible;
         top: 100%;
         transform: rotateX(-75deg);
         transform-origin: 0% 0%;
@@ -157,7 +159,7 @@ h6,
 
 /*** Header ***/
 .carousel-caption {
-    top: 0;
+    top: 100px;
     left: 0;
     right: 0;
     bottom: 0;
