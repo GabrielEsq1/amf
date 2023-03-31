@@ -63,18 +63,32 @@ h6,
 
 .btn-primary,
 .btn-outline-primary:hover {
+    top: 694px;
+    left: 290px;
     color: var(--light);
     margin: 10px;
     position: fixed;
-    margin-left: 220px;
+    
 }
 
 .btn-primary2,
 .btn-outline-primary:hover {
-    color: #ffffff;
-    margin: 10px;
+    top: 694px;
+    margin: 10px;    color: #ffffff;
+
     background-color: #7FFF00;
     position: fixed;
+}
+
+.btn-primary3,
+.btn-outline-primary:hover {
+       left: 40px;
+    color: #ffffff;
+
+    background-color: #7FFF00;
+        margin: 10px;
+    
+    
 }
 
 .btn-square {
