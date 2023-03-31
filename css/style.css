@@ -65,6 +65,8 @@ h6,
 .btn-outline-primary:hover {
     color: var(--light);
     margin: 10px;
+    position: fixed;
+    margin-left: 220px;
 }
 
 .btn-primary2,
@@ -72,6 +74,7 @@ h6,
     color: #ffffff;
     margin: 10px;
     background-color: #7FFF00;
+    position: fixed;
 }
 
 .btn-square {
