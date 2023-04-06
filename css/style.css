@@ -87,6 +87,13 @@ h6,
     
     
 }
+.btn-primary3,
+.btn-outline-primary:hover {
+    top: 194px;
+    margin: 10px;    color: #ffffff;
+
+    background-color: #ff0000;
+}
 
 .btn-square {
     width: 38px;
